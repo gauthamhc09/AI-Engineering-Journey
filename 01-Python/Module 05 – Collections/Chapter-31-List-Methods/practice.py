@@ -37,7 +37,8 @@ stocks.extend(["NESTLE", "COLPAL", "TRITURBINE"]) # will not return
 # Insert one stock at a specific position
 stocks.insert(1, "HCLTECH") # no return
 # Remove one stock by value
-stocks.remove("ITC") # no return
+remove_ele = stocks.remove("ITC") # no return
+print(remove_ele, 'remove')
 # Remove one stock using pop()
 stocks.pop(3)  # returns removed value
 # Find the index of a stock
@@ -55,7 +56,7 @@ a = numbers.append(10)
 b = numbers.sort()
 c = numbers.pop()
 
-print(numbers) # []
-print(a) 
-print(b)
-print(c)
+print(numbers) # [1, 2, 2, 5, 8]
+print(a) # None
+print(b)# None
+print(c) # 10
