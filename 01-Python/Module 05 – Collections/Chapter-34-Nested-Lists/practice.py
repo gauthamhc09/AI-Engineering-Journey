@@ -42,10 +42,28 @@ doubled_matrix = [[number * 2 for number in row] for row in matrix]
 print(doubled_matrix)
 
 result = []
-for row in matrix:
-    roww= []
-    for number in row:
+for row in range(3):
+    roww = []
+    for number in range(3):
         print(number)
-        row.append[number]
-    result.append[roww]
+        roww.append(number)
+    result.append(roww)
 print(result)
+
+matrix = [
+    [1, 2],
+    [3, 4]
+]
+
+result = []
+
+for row in matrix:
+    new_row = []
+
+    for number in row:
+        new_row.append(number * 10)
+
+    result.append(new_row)
+
+print(result)
+
