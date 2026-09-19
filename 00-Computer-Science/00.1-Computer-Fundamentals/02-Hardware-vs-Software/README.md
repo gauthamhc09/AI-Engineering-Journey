@@ -1,19 +1,47 @@
-# Hardware vs Software
+# Concept 2 — Hardware vs Software
 
-> Status: Not Started
+## Core Idea
 
-## Learning Objectives
+```text
+Computer
+├── Software → instructions
+└── Hardware
+    ├── CPU
+    ├── RAM
+    └── Storage
+```
 
-## Notes
+**Hardware** is the physical machinery: CPU, RAM, SSD/HDD, keyboard, display, etc.
 
-## Examples
+**Software** is the collection of instructions/programs that tell hardware what to do.
 
-## Exercises
+## Program vs Running State
 
-## Key Takeaways
+For:
 
-## Common Mistakes
+```python
+x = 10
+```
 
-## AI Engineering Connection
+the `.py` file is software stored persistently on storage. When the program runs, its active state is represented in working memory and CPU execution machinery.
 
-## Revision Questions
+```text
+Python file
+   ↓
+Storage
+   ↓
+Program starts
+   ↓
+Running state
+   ↓
+RAM / CPU execution
+```
+
+When the program closes, the running state is generally lost, while the `.py` file remains on storage.
+
+## Important Refinement
+
+Python source does not execute on the physical CPU in the same form in which it was written. There are execution layers between Python source and hardware. Later we will study the path in detail.
+
+## Key Takeaway
+> Software provides instructions; hardware provides the physical machinery that executes those instructions.

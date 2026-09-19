@@ -1,19 +1,41 @@
-# What Is a Computer
+# Concept 1 — What Is a Computer?
 
-> Status: Not Started
+## Core Idea
+A computer is a machine that receives information, follows instructions, changes its state, and produces a result.
 
-## Learning Objectives
+```text
+Current State
+     +
+ Instruction
+     ↓
+ New State
+```
 
-## Notes
+## Example
+```python
+x = 10
+y = 20
+z = x + y
+```
 
-## Examples
+The program provides instructions that cause the computer's state to change.
 
-## Exercises
+## Important Mental Model
+A computer continuously executes instructions that transform one state into another.
 
-## Key Takeaways
+```text
+State → Instruction → New State
+```
 
-## Common Mistakes
+## Conditional Example
+```python
+if age >= 18:
+    status = "adult"
+else:
+    status = "minor"
+```
 
-## AI Engineering Connection
+The `if` chooses which instruction path executes; the selected instructions then cause a state change.
 
-## Revision Questions
+## Key Takeaway
+> A computer executes instructions that transform its current state into a new state.
