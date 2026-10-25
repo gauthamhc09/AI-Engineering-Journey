@@ -137,7 +137,7 @@ For every chapter I follow the same learning process.
 
 | Module | Status |
 |---------|--------|
-| Computer Science | ⬜ |
+| Computer Science | 🟨 In Progress  |
 | Python | 🟨 In Progress |
 | Math for AI | ⬜ |
 | Machine Learning | ⬜ |
